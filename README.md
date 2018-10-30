@@ -1,31 +1,16 @@
-# Adonis fullstack application
+# Adonisjs learning basic
 
-This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
-
-1. Bodyparser
-2. Session
-3. Authentication
-4. Web security middleware
-5. CORS
-6. Edge template engine
-7. Lucid ORM
-8. Migrations and seeds
+I learning some features of adonisjs and implements it.
 
 ## Setup
 
-Use the adonis command to install the blueprint
+First, you need config database in .env file (recommend mysql db). After that you must running `adonis serve --dev` to start server with port configged in .env file.
 
-```bash
-adonis new yardstick
-```
+## Migrations DB and Generate Seeder && Factory
 
-or manually clone the repo and then run `npm install`.
+You need run `adonis migration:run` to gen all migrations file to tables. After that you can run `adonis seed` to generate faker DB which I create 
+in seeder folder (by default: 20 staffs and 5 users).
 
+Note: when you're running `adonis seed`. Its will appear some error in terminal but don't care about that. Your DB still generate correctly.
 
-### Migrations
-
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
-```
+Good luck!
