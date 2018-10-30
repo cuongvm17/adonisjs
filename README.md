@@ -13,4 +13,10 @@ in seeder folder (by default: 20 staffs and 5 users).
 
 Note: when you're running `adonis seed`. Its will appear some error in terminal but don't care about that. Your DB still generate correctly.
 
+## Running APIs
+I create two resource APIs that is: resource('users') and resource('staffs'). 
+You can enter to browser:
+http://yourlocalhost:port/users
+http://yourlocalhost:port/staffs
+
 Good luck!
